@@ -1,0 +1,613 @@
+{
+	"folders": [
+		{
+			"name": "FPSZombie",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "G:\\Epic Games\\UE_5.4"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "FPSZombie Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"Debug",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"Debug",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"FPSZombie Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"Debug",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"DebugGame",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"DebugGame",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"FPSZombie Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"DebugGame",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"Development",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"Development",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"FPSZombie Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"Development",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"Test",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"Test",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"FPSZombie Win64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"Test",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"Shipping",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"Shipping",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"FPSZombie Win64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombie Win64 Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"FPSZombie",
+					"Win64",
+					"Shipping",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombieEditor Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombieEditor",
+					"Win64",
+					"Debug",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombieEditor Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombieEditor",
+					"Win64",
+					"Debug",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"FPSZombieEditor Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombieEditor Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"FPSZombieEditor",
+					"Win64",
+					"Debug",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombieEditor Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombieEditor",
+					"Win64",
+					"DebugGame",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombieEditor Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombieEditor",
+					"Win64",
+					"DebugGame",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"FPSZombieEditor Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombieEditor Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"FPSZombieEditor",
+					"Win64",
+					"DebugGame",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombieEditor Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombieEditor",
+					"Win64",
+					"Development",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombieEditor Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"FPSZombieEditor",
+					"Win64",
+					"Development",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"FPSZombieEditor Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"label": "FPSZombieEditor Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"FPSZombieEditor",
+					"Win64",
+					"Development",
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "G:\\Epic Games\\UE_5.4"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch FPSZombie (Debug)",
+				"request": "launch",
+				"program": "G:\\Unreal\\FPSZombie\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"preLaunchTask": "FPSZombie Win64 Debug Build",
+				"args": [
+				],
+				"cwd": "G:\\Epic Games\\UE_5.4",
+				"stopAtEntry": false,
+				"console": "integratedTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Epic Games\\UE_5.4\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"name": "Launch FPSZombie (DebugGame)",
+				"request": "launch",
+				"program": "G:\\Unreal\\FPSZombie\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"preLaunchTask": "FPSZombie Win64 DebugGame Build",
+				"args": [
+				],
+				"cwd": "G:\\Epic Games\\UE_5.4",
+				"stopAtEntry": false,
+				"console": "integratedTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Epic Games\\UE_5.4\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"name": "Launch FPSZombie (Development)",
+				"request": "launch",
+				"program": "G:\\Unreal\\FPSZombie\\Binaries\\Win64\\UnrealGame.exe",
+				"preLaunchTask": "FPSZombie Win64 Development Build",
+				"args": [
+				],
+				"cwd": "G:\\Epic Games\\UE_5.4",
+				"stopAtEntry": false,
+				"console": "integratedTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Epic Games\\UE_5.4\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"name": "Launch FPSZombie (Test)",
+				"request": "launch",
+				"program": "G:\\Unreal\\FPSZombie\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"preLaunchTask": "FPSZombie Win64 Test Build",
+				"args": [
+				],
+				"cwd": "G:\\Epic Games\\UE_5.4",
+				"stopAtEntry": false,
+				"console": "integratedTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Epic Games\\UE_5.4\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"name": "Launch FPSZombie (Shipping)",
+				"request": "launch",
+				"program": "G:\\Unreal\\FPSZombie\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"preLaunchTask": "FPSZombie Win64 Shipping Build",
+				"args": [
+				],
+				"cwd": "G:\\Epic Games\\UE_5.4",
+				"stopAtEntry": false,
+				"console": "integratedTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Epic Games\\UE_5.4\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"name": "Launch FPSZombieEditor (Debug)",
+				"request": "launch",
+				"program": "G:\\Epic Games\\UE_5.4\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+				"preLaunchTask": "FPSZombieEditor Win64 Debug Build",
+				"args": [
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject"
+				],
+				"cwd": "G:\\Epic Games\\UE_5.4",
+				"stopAtEntry": false,
+				"console": "integratedTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Epic Games\\UE_5.4\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"name": "Launch FPSZombieEditor (DebugGame)",
+				"request": "launch",
+				"program": "G:\\Epic Games\\UE_5.4\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+				"preLaunchTask": "FPSZombieEditor Win64 DebugGame Build",
+				"args": [
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject"
+				],
+				"cwd": "G:\\Epic Games\\UE_5.4",
+				"stopAtEntry": false,
+				"console": "integratedTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Epic Games\\UE_5.4\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"name": "Launch FPSZombieEditor (Development)",
+				"request": "launch",
+				"program": "G:\\Epic Games\\UE_5.4\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+				"preLaunchTask": "FPSZombieEditor Win64 Development Build",
+				"args": [
+					"G:\\Unreal\\FPSZombie\\FPSZombie.uproject"
+				],
+				"cwd": "G:\\Epic Games\\UE_5.4",
+				"stopAtEntry": false,
+				"console": "integratedTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "G:\\Epic Games\\UE_5.4\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "G:\\Epic Games\\UE_5.4"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Win64 Development Build",
+				"program": "G:\\Epic Games\\UE_5.4\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=G:\\Unreal\\FPSZombie\\FPSZombie.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "integratedTerminal",
+				"stopAtEntry": false,
+				"cwd": "G:\\Epic Games\\UE_5.4"
+			}
+		]
+	}
+}

@@ -1,0 +1,538 @@
+[
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Ai\\ZombieAIController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Ai\\ZombieAIController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Ai\\ZombieAttackTarget.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Ai\\ZombieAttackTarget.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Ai\\ZombieCanAttack.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Ai\\ZombieCanAttack.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Ai\\ZombiePatrol.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Ai\\ZombiePatrol.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Ai\\ZombieTurnDirection.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Ai\\ZombieTurnDirection.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Ai\\ZombieWalkForward.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Ai\\ZombieWalkForward.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Animations\\FPSPlayerAniminstance.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Animations\\FPSPlayerAniminstance.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Animations\\FPSWalkAnimNotify.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Animations\\FPSWalkAnimNotify.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Animations\\WeaponAttachAnimNotify.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Animations\\WeaponAttachAnimNotify.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Animations\\WeaponSwapAnimNotify.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Animations\\WeaponSwapAnimNotify.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Animations\\ZombieAttackNotify.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Animations\\ZombieAttackNotify.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Character\\FPSCharacterBase.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Character\\FPSCharacterBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Character\\FPSCharacterPlayer.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Character\\FPSCharacterPlayer.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Character\\FPSPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Character\\FPSPlayerController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Character\\FPSZombieCharacter.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Character\\FPSZombieCharacter.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\FPSZombie.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\FPSZombie.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\FPSZombie.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\GameData\\FPSCharacterInputData.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\GameData\\FPSCharacterInputData.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\GameData\\FPSImpactInfoData.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\GameData\\FPSImpactInfoData.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\GameData\\FPSWeaponConfig.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\GameData\\FPSWeaponConfig.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\GameData\\FPSZombieRoundInfo.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\GameData\\FPSZombieRoundInfo.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Game\\FPSZombieGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Game\\FPSZombieGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Game\\FPSZombieRoundManager.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Game\\FPSZombieRoundManager.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Game\\FPSZombieSingleton.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Game\\FPSZombieSingleton.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Interfaces\\CharacterAttachmentInterface.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Interfaces\\CharacterAttachmentInterface.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Interfaces\\PlayerHUDInterface.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Interfaces\\PlayerHUDInterface.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Interfaces\\WidgetControlModeInterface.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Interfaces\\WidgetControlModeInterface.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Interfaces\\ZombieAttackInterface.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Interfaces\\ZombieAttackInterface.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\WIdget\\CrossHairWidget.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\WIdget\\CrossHairWidget.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\WIdget\\FPSGameWidget.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\WIdget\\FPSGameWidget.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\WIdget\\FPSMainWidget.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\WIdget\\FPSMainWidget.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Weapons\\FPSWeaponBase.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Weapons\\FPSWeaponBase.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Weapons\\FPS_WeaponPistol.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Weapons\\FPS_WeaponPistol.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Weapons\\FPS_Weapon_Rifle.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	},
+	{
+		"file": "G:\\Unreal\\FPSZombie\\Source\\FPSZombie\\Weapons\\FPS_Weapon_Rifle.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@G:\\Unreal\\FPSZombie\\.vscode\\compileCommands_Default\\FPSZombie.1.rsp"
+		],
+		"directory": "G:\\Epic Games\\UE_5.4\\Engine\\Source"
+	}
+]
